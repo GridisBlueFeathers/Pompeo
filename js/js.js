@@ -1,8 +1,4 @@
-setTimeout(modalFadeIn, 10000)
-
-function modalFadeIn(){
-    $('.modal').fadeIn()
-}
+setTimeout(function(){$('.modal').fadeIn()}, 10000)
 
 $('.modal').click(function(e){
     switch ($(e.target).closest('.modal__window').length == 0){
