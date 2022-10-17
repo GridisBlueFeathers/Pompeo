@@ -699,7 +699,7 @@ a{
 }
 
 .modal{
-    display: block;
+    display: none;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.1);
     top: 0;
